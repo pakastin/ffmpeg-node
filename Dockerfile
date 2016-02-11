@@ -4,7 +4,6 @@ RUN apt-get install -y software-properties-common
 RUN add-apt-repository ppa:mc3man/trusty-media
 
 RUN apt-get update -y
-RUN apt-get dist-upgrade -y
 
 RUN apt-get install -y curl
 
